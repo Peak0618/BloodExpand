@@ -1,0 +1,245 @@
+#05
+;FF     PUBLIC
+02FFED8@@CPR1
+02FFEDE@@FPRF1
+02FFEDF@@FPRF2
+02FFEDE@@FPRFP
+02FFED8@@FPRS
+02FFEDC@@FPRXD
+02FFEDC@@FPRXP
+02FFEDD@@FPRXS
+0100185@@ismul
+0100185@@iumul
+01001C1@@lsadd
+0100196@@lsmul
+01001D0@@lsrsh
+01001C1@@luadd
+0100196@@lumul
+01001EF@@lursh
+02FF676_?DATA
+02FF676_?DATAL
+02FF676_?DATS
+02FF676_?INIS
+02FF676_?INIT
+02FF676_?INITL
+0100002_?RLINIT
+0100002_?R_INIS
+0100002_?R_INIT
+02FF398_@BRKADR
+02FF386_@DIVR
+02FF380_@FNCENT
+02FF300_@FNCTBL
+02FF38A_@LDIVR
+0000000_@MAA
+02FF3BA_@MEMBTM
+02FF39A_@MEMTOP
+02FFED8_@RTARG0
+02FFED9_@RTARG1
+02FFEDA_@RTARG2
+02FFEDB_@RTARG3
+02FFEDC_@RTARG4
+02FFEDD_@RTARG5
+02FFEDE_@RTARG6
+02FFEDF_@RTARG7
+01FFE20_@SADBEG
+00000C0_@SADSIZ
+02FF382_@SEED
+02FFED4_@SEGAX
+02FFED5_@SEGBC
+02FFED6_@SEGDE
+02FFED7_@SEGHL
+00FFED4_@STBEG
+00FF676_@STEND
+02FF392_@TOKPTR
+0100185_@cend
+01000D8_@cstart
+0100004_@vect04
+010001E_@vect1e
+0100020_@vect20
+010002A_@vect2a
+0100048_@vect48
+0100B79_CRC16
+0102B66_EEPROM_init
+0102580_EEPROM_init2
+010071D_R_ADC_Create
+0100755_R_ADC_Get_Result
+0100751_R_ADC_Set_OperationOff
+010074D_R_ADC_Set_OperationOn
+0100745_R_ADC_Start
+0100749_R_ADC_Stop
+01003A0_R_CGC_Create
+01003C8_R_CGC_Get_ResetSource
+0100557_R_IICA0_Create
+010061B_R_IICA0_Master_Receive
+01005BA_R_IICA0_Master_Send
+01005B0_R_IICA0_Stop
+01005B5_R_IICA0_StopCondition
+0100366_R_MAIN_UserInit
+0100809_R_PCLBUZ0_Create
+0100819_R_PCLBUZ0_Start
+010081D_R_PCLBUZ0_Stop
+01003E8_R_PORT_Create
+0100412_R_SAU0_Create
+010036A_R_Systeminit
+01007E7_R_TAU0_Channel7_Start
+01007F8_R_TAU0_Channel7_Stop
+0100766_R_TAU0_Create
+0100425_R_UART0_Create
+01004FD_R_UART0_Receive
+0100523_R_UART0_Send
+01004A5_R_UART0_Start
+01004D6_R_UART0_Stop
+01003D4_R_WDT_Create
+01003E4_R_WDT_Restart
+010155D_abs
+0100CF3_ad_convert_deal
+0100F98_ad_temp_calc
+01021F6_ad_to_temp3
+01024B6_ad_to_temp4
+0100E9C_ad_val_deal
+01009B2_com_fault_delaytime
+0100821_com_init
+0100858_com_rx_data_deal
+010094F_com_rx_delaytime
+0100989_com_rx_end_delaytime
+0100834_com_rx_init
+01009CE_com_rx_int
+010096C_com_tx_delaytime
+01008A6_com_tx_init
+0100AE1_com_tx_int
+01012E7_delay_10us
+010130D_delay_1ms
+010119C_eeprom2_read_deal
+01013ED_eeprom_read
+0101242_eeprom_read_deal
+010133A_eeprom_write
+02FF396_errno
+0101541_exit
+02FF43C_flg_adc
+02FF3D0_flg_com
+02FF4F0_flg_e2
+02FF672_flg_peripheral
+02FF438_flg_test
+02FF430_flg_time
+02FF3C4_g_iica0_master_status_flag
+02FF3CA_g_iica0_rx_cnt
+02FF3C8_g_iica0_rx_len
+02FF3C5_g_iica0_slave_status_flag
+02FF3CE_g_iica0_tx_cnt
+02FF3C0_g_uart0_rx_count
+02FF3C2_g_uart0_rx_length
+02FF3BC_g_uart0_tx_count
+0101018_get_temp3
+01010C3_get_temp4
+02FF3C6_gp_iica0_rx_address
+02FF3CC_gp_iica0_tx_address
+02FF3BE_gp_uart0_rx_address
+02FF3BA_gp_uart0_tx_address
+02FF4BA_gss_TA
+02FF4BE_gss_TC
+02FF4C0_gss_TE
+02FF4BC_gss_THW
+02FF4C6_gss_Tbat1
+02FF4C8_gss_Tbat2
+02FF4C2_gss_VAC
+02FF4D8_gss_adg_Temp
+02FF4EC_gss_adg_Temp2
+02FF4D6_gss_bat_I
+02FF416_gss_com_fault_delaytimer
+02FF412_gss_com_rx_delaytimer
+02FF414_gss_com_rx_end_delaytimer
+02FF410_gss_com_tx_delaytimer
+02FF674_gss_key_buzz_delaytimer
+02FF434_guc_100ms_timer
+02FF433_guc_10ms_timer
+02FF4C4_guc_12V
+02FF436_guc_1min_timer
+02FF435_guc_1s_timer
+02FF432_guc_5ms_timer
+02FF4EE_guc_ad_calc_cnt
+02FF4A1_guc_ad_cnt
+02FF4A2_guc_ad_fault_cnt
+02FF4AE_guc_ad_fault_release_cnt
+02FF4A0_guc_ad_index
+02FF4CA_guc_bat_Vin
+02FF4CB_guc_bat_Vout
+02FF4CC_guc_bat_Vout_instant
+02FF3DB_guc_com_rx_buffer
+02FF419_guc_com_rx_point
+02FF3D2_guc_com_tx_buffer
+02FF418_guc_com_tx_point
+02FF427_guc_key_buffer
+02FF42B_guc_key_val
+02FF41A_guc_led_buffer
+02FF43A_guc_test_mode_code
+02FF458_gul_ad_sum_buffer
+02FF4CE_gul_bat_Vin
+02FF4D2_gul_bat_Vout
+02FF488_gus_ad_aver_buffer
+02FF440_gus_ad_buffer
+02FF43E_gus_ad_val
+0100398_hdwinit
+0101173_init_ram_para
+0101149_init_ram_para2
+01014DD_key_buzz_delaytime
+010034F_main
+0100C19_main_loop
+02FF620_ram_para
+02FF4F2_ram_para2
+01014FD_stkinit
+0100BDF_system_init
+0100C10_system_start
+0102000_temp3_for_ad
+01023EC_temp4_for_ad
+0100D8B_test_com_rx_data_deal
+0100DCE_test_com_tx_init
+0100E7F_test_error_code_deal
+0100E2F_test_in_out_pin
+0100E60_test_mode_LED_deal
+0100D32_test_mode_com
+0100D0D_timer_int
+0100C98_timer_op
+;FF     @cstart
+;FF     r_main
+;FF     r_systeminit
+;FF     r_cg_cgc
+;FF     r_cg_cgc_user
+;FF     r_cg_wdt
+;FF     r_cg_wdt_user
+<010020E_r_wdt_interrupt
+;FF     r_cg_port
+;FF     r_cg_port_user
+;FF     r_cg_serial
+;FF     r_cg_serial_user
+<0100681_iica0_master_handler
+01002CB_r_iica0_interrupt
+0100680_r_uart0_callback_sendend
+0100210_r_uart0_interrupt_receive
+010027B_r_uart0_interrupt_send
+;FF     r_cg_adc
+;FF     r_cg_adc_user
+;FF     r_cg_timer
+;FF     r_cg_timer_user
+<0100311_r_tau0_channel7_interrupt
+;FF     r_cg_pclbuz
+;FF     r_cg_pclbuz_user
+;FF     m_com
+;FF     m_main
+;FF     m_test
+;FF     m_ad
+;FF     m_e2
+;FF     m_rom_para2
+;FF     m_peripheral_control
+;FF     @imul
+;FF     @lmul
+;FF     @ladd
+;FF     @lsrsh
+;FF     @lursh
+;FF     @SEGREG
+;FF     @stkinit
+;FF     @RTARG0
+;FF     exit
+;FF     abs
+;FF     @rom
+=
+
